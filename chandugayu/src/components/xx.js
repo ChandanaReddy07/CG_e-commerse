@@ -7,7 +7,7 @@ const x = [
     Price: "1499",
     catergory: "Kids Clothes",
     rating: "4.5",
-    discount: "47%",
+    discount: "47",
     image: {
       mainImage:
         "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15106312/2021/8/11/dcc968f9-2fe5-4a12-b459-e048f1239e6f1628666753809Shirtdress1.jpg",
@@ -24,7 +24,7 @@ const x = [
     Price: "699",
     catergory:"Kids Clothes",
     rating: "4.1",
-    discount: "45%",
+    discount: "45",
     image: {
       mainImage:
         "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14928992/2021/7/26/7a0ee6d8-19c3-443c-91bd-0b8db34e673d1627271467090Pocket-detailjerseytop1.jpg",
@@ -41,7 +41,7 @@ const x = [
     Price: "1746",
     catergory:"Kids Clothes",
     rating: "4.5",
-    discount: "30%",
+    discount: "30",
     image: {
       mainImage:
         "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/2/4/bb5c1549-ca40-4791-a441-a0bc79cd370c1580767207437-1.jpg",
@@ -59,7 +59,7 @@ const x = [
     catergory:"Kids Clothes",
     Price: "909",
     rating: "4.5",
-    discount: "65%",
+    discount: "65",
     
     image: {
       mainImage:
@@ -77,7 +77,7 @@ const x = [
     Price: "899",
     catergory: "Kids Clothes",
     rating: "4.3",
-    discount: "50%",
+    discount: "50",
     image: {
       mainImage:
         "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/5/22/e33a8f27-dd35-4cce-bf19-2cb035cc8f351558528668481-1.jpg",
@@ -98,7 +98,7 @@ const x = [
     Price: "1099",
     catergory: "Kids Clothes",
     rating: "4.6",
-    discount: "20%",
+    discount: "20",
     image: {
       mainImage:
         "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/10/7fa2e23c-57e8-4d20-aadd-13245f4ac5b41618035305608-1.jpg",
@@ -116,7 +116,7 @@ const x = [
     Price: "768",
     catergory: "Kids Clothes",
     rating: "4.2",
-    discount: "65%",
+    discount: "65",
     image: {
       mainImage: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/9/30d37956-4521-4e33-b606-a3de2d1bd2151612848816031-1.jpg",
       img1: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/9/0d005aff-f14a-4542-ba98-a60fd6779e081612848816069-3.jpg",
@@ -132,7 +132,7 @@ const x = [
     Price: "99",
     catergory: "Kids Clothes",
     rating: "3.5",
-    discount: "60%",
+    discount: "60",
     image: {
       mainImage: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12315506/2021/2/3/d7d21a38-2788-4878-8d0d-d5738e9eca501612349250240-HRX-by-Hrithik-Roshan-Boys-Black-Geometric-Printed-Antimicro-1.jpg",
       img1: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12315506/2021/2/3/43a8fc5c-a1a6-4588-8d7a-d51650aefc731612349250222-HRX-by-Hrithik-Roshan-Boys-Black-Geometric-Printed-Antimicro-2.jpg",
@@ -150,7 +150,7 @@ const x = [
     Price: "719",
     catergory: "Kids Clothes",
     rating: "4.3",
-    discount: "40%",
+    discount: "40",
     image: {
       mainImage: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12268330/2020/8/31/aae50862-2e7e-4721-8af9-7dbfef54106b1598875017153-YK-Boys-Yellow--Navy-Blue-Printed-T-shirt-with-Shorts-854159-1.jpg",
       img1: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12268330/2020/8/31/1c7d49f8-b89e-4e9b-bb22-47c6effadec61598875017067-YK-Boys-Yellow--Navy-Blue-Printed-T-shirt-with-Shorts-854159-2.jpg",
@@ -166,7 +166,7 @@ const x = [
     Price: "719",
     catergory: "Kids Clothes",
     rating: "4.5",
-    discount: "45%",
+    discount: "45",
     image: {
       mainImage: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13837658/2021/4/7/320063b2-c291-4477-8188-359758cfea9f1617797701073TommyHilfigerGirlsRedSelfDesignPureCottonFitandFlareDress1.jpg",
       img1: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13837658/2021/4/7/b99c43fc-8a77-4105-90df-53bce6cf97841617797701156TommyHilfigerGirlsRedSelfDesignPureCottonFitandFlareDress3.jpg",
@@ -175,4 +175,4 @@ const x = [
     },
   },
 ];
-export default x
+export default x;
