@@ -144,16 +144,16 @@ const Products = () => {
           <p className="allprd_prange">Price Range</p>
           <div className="allprd_range">
             <button className="allprd_rbtn" onClick={() => price(1)}>
-              0 - 500
+              Rs . 0 - 500
             </button>
             <button className="allprd_rbtn" onClick={() => price(2)}>
-              501 - 1000
+              Rs .501 - 1000
             </button>
             <button className="allprd_rbtn" onClick={() => price(3)}>
-              1000 and 10000
+              Rs .1000 and 10000
             </button>
             <button className="allprd_rbtn" onClick={() => price(4)}>
-              10000 and above
+              Rs .10000 and above
             </button>
           </div>
 
@@ -175,26 +175,30 @@ const Products = () => {
             </button>
           </div>
 
-            <p className="allprd_prange">Discount Range</p>
-            <div className="allprd_range">
-              {[...Array(8)].map((_, index) => {
-                return (
-                  <button
-                    key={index}
-                    className="allprd_rbtn"
-                    onClick={() => discnt(index + 1)}
-                  >
-                    {10 * (index + 1)}% and above
-                  </button>
-                );
-              })}
-            
+          <p className="allprd_prange">Discount Range</p>
+          <div className="allprd_range">
+            {[...Array(8)].map((_, index) => {
+              return (
+                <button
+                  key={index}
+                  className="allprd_rbtn"
+                  onClick={() => discnt(index + 1)}
+                >
+                  {10 * (index + 1)}% and above
+                </button>
+              );
+            })}
           </div>
         </div>
 
         <div className="container2">
           <div className="allprd_details">
-            <h1>Category</h1>
+            {newp.length > 0 ? (
+              <h1>{newp[0].catergory}</h1>
+            ) : (
+              <h1>category</h1>
+            )}
+
             <div className="allprod_dropdown">
               <div className="allprod_sort">
                 Sort By: <p>{set}</p>

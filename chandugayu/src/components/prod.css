@@ -16,9 +16,11 @@
   display: flex;
   width: 220px;
   margin-top: 20px;
+  border-radius: 5px;
   margin-right: 20px;
   padding: 5px 20px 10px 20px;
   border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   background-color: rgb(252, 251, 250);
 
 }
@@ -29,13 +31,19 @@
   font-size: 30px;
 }
 
+.allprd_details h1{
+  margin-left: 20px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 1px #000,  3px 3px 5px rgb(17, 23, 24); 
+}
 
 
 .allprd_details .allprod_dropdown .allprod_sort p{
   text-align: center;
   margin:0px 10px;
-  
-  /*width:200px;*/
 }
 .allprod_dropdown-content p{
   cursor: pointer;
@@ -43,6 +51,7 @@
 }
 .allprod_dropdown-content p:hover{
   background-color: rgb(141, 141, 180);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   color: white;
   height: 30px;
 }
@@ -70,6 +79,8 @@
 }
 .allprod_slid{
   width: 20%;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  
   background-color: rgb(170, 226, 220);
   
 }
@@ -82,7 +93,8 @@
 .allprd_range{
   display:flex;
   flex-direction: column;
- 
+  padding-bottom: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
   min-width:5em;
   text-align: left;
   margin-left: 15px;
@@ -102,8 +114,8 @@
 .container2{
   width: 80%;
   display: flex;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
   flex-direction: column;
 }
 
@@ -120,7 +132,7 @@
   position: relative;
   /* width: 80%; */
   display: flex;
-
+  /* line-height: 5rem; */
   /* background-color: rgb(49, 65, 59); */
   margin-top: 50px;
   justify-content: center;
@@ -132,6 +144,7 @@
   position: relative;
   max-width: 320px;
   height: 250px;
+ 
   background-color: rgb(200, 245, 245);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   transition: 0.3s ease-in-out;
@@ -148,6 +161,7 @@
   position: relative;
   width: 260px;
   height: 290px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   display: flex;
   border-radius: 10px;
   justify-content: center;
@@ -172,7 +186,7 @@
 .container1 .card1:hover .content {
   visibility: visible;
   opacity: 1;
-  margin-top: -50px;
+  margin-top: -40px;
   transition-delay: 0.3s;
 }
 .container1 .card1:hover {
@@ -271,6 +285,7 @@
 }
 .allprd_rbtn:hover{
   background-color: rgb(99, 230, 219);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 .allprod_none{
   font-size: 35px;
